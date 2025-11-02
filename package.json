@@ -1,0 +1,31 @@
+{
+  "name": "pvpoke-ios-shortcut",
+  "version": "1.0.0",
+  "description": "iOS Shortcut for PvPoke Pokemon rankings using Shortcuts.js native actions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-data.js",
+    "build": "npm run sync && tsx src/build-shortcut.ts && open dist/PvPokeRankings.shortcut",
+    "demo": "tsx src/demo.ts",
+    "shortcut": "tsx src/build-shortcut.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "pokemon",
+    "pvpoke",
+    "ios",
+    "shortcut"
+  ],
+  "author": "James Wilson (jsw.james.wilson@gmail.com)",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@joshfarrant/shortcuts-js": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.3.0"
+  }
+}
