@@ -9,10 +9,10 @@ An iOS/Mac Shortcut that looks up Pokemon PvP rankings across all leagues using 
 - 👨‍👩‍👧‍👦 Shows rankings for entire evolution families
 - 📴 Works completely offline (data embedded in shortcut)
 - 🎮 All competitive leagues:
-  - 🔵 Little League (500 CP)
-  - 🟢 Great League (1500 CP)
+  - 🟢 Little League (500 CP)
+  - 🔴 Great League (1500 CP)
   - 🟣 Ultra League (2500 CP)
-  - 🔴 Master League (unlimited CP)
+  - 🔵 Master League (unlimited CP)
 
 ## Quick Start
 
