@@ -16,6 +16,10 @@ An iOS/Mac Shortcut that looks up Pokemon PvP rankings across all leagues using 
 
 ## Quick Start
 
+Download the signed shortcut file from Releases, and just open/install it. May not be the latest pvpoke data.
+
+## Dev Install (Latest PvPoke Data)
+
 ```bash
 # Install dependencies
 npm install
@@ -25,8 +29,6 @@ npm run build
 ```
 
 This creates `dist/PvPokeRankings.shortcut` which you can AirDrop to your iOS/Mac device (or just install over iCloud).
-
-## Installation
 
 You will need to finish connecting variables within the Shortcut. To do this, click the '...' and simply follow the commented instructions as you scroll down. I highly recommend doing this on your iOS device because the macOS editor is janky.
 
